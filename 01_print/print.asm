@@ -1,6 +1,6 @@
-format ELF64 executable 3	; value 3 marks the executable for Linux system
-
 ; code this part begins
+
+format ELF64 executable 3	; value 3 marks the executable for Linux system
 
 ; print
 mov eax, 1	; syscall #1 (write)
