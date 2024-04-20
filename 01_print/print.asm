@@ -10,8 +10,8 @@ syscall		; call write
 ; code this part ends
 
 ; exit
-mov rax, 60     ; syscall #60 (exit)
-mov rdi, 0      ; arg 1 = 0 (OK)
+mov eax, 60     ; syscall #60 (exit)
+mov edi, 0      ; arg 1 = 0 (OK)
 syscall         ; call exit
 
 input db "hello", 10, 0
