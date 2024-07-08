@@ -35,7 +35,7 @@ start:
 	mov rdx, input	
 
 .char_to_morse_loop:
-	mov bl, byte [rdx]	; bl = arg to find_morse_code
+	mov bl, byte [edx]	; bl = arg to find_morse_code
 	cmp bl, 0
 	je .end
 	add rdx, 1
